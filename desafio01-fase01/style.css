@@ -1,0 +1,52 @@
+body {  
+  text-align: center;
+}
+
+#hero-titulo{
+  width: 592px;
+  margin: 72px auto 32px;
+}
+
+#hero-titulo h1 span {
+  font-weight: bold;
+  color: #FF9900;
+}
+
+#hero-titulo h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  font-weight: normal;
+}
+
+#texto1 {
+  font-family: "Open Sans", sans-serif;
+  width: 592px;
+  line-height: 28px;
+  margin: 0 auto 72px;
+  color: #7D7987;
+}
+
+#texto1 span {
+  color: #FF9900;
+}
+
+#footer #line {
+  width: 568px;
+  border: 1px solid #ECEFF2;
+  margin: 0 auto 8px;
+}
+
+#footer a {
+  font-family: "Open Sans", sans-serif;
+  color: #FF9900;
+}
+
+#footer a + a {
+  margin-left: 28px;
+}
+
+#balls img {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
