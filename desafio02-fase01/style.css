@@ -1,0 +1,74 @@
+body{
+  text-align: center;
+  margin: 0;
+}
+
+#principal img {
+  margin: 64px auto 0;
+}
+
+#paragrafo1 {
+  font-family: 'Dosis', sans-serif;
+  margin: 0 auto 16px;
+}
+
+#paragrafo1 p {  
+  font-size: 32px;
+  color: #3F3D56;
+}
+
+#paragrafo1 p span {
+  font-weight: bold;
+  color: #EE24FF;
+}
+
+#paragrafo2 {
+  width: 540px;
+  margin: 0 auto 0;
+}
+
+#paragrafo2, #paragrafo3, #footer {
+  font-family: 'Open Sans', sans-serif;
+}
+
+#paragrafo2, #paragrafo3 p {
+  font-size: 15px;
+  color: #828282;
+  line-height: 22px;
+}
+
+#paragrafo2 p strong {
+  color: #3F3D56;
+}
+
+#paragrafo3 p {
+  margin: 32px auto 64px;
+}
+
+#footer {
+  margin: 0 auto 40.83px;
+}
+
+#footer a {
+  color: #3F3D56;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#footer a + a {
+  margin-left: 42px;
+}
+
+#onda {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+}
+
+#onda img {
+  color: #3F3D56;
+  width: 100%;
+}
+
+
