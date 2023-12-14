@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EFEFEF;  
+}
+
+body::before {
+  content: '';
+  background-color: #535971;
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.page {
+  margin: auto;
+  width: 750px;
+}
+
+header {
+  width: 417px;
+  margin-top: 140px;
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 400;
+  font-family: 'Staatliches', sans-serif;
+  margin-bottom: 18px;
+}
+
+header p {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 58px;
+}
+
+form {
+  background-color: #FFFFFF;
+  border-radius: 20px 20px 0 0;
+  padding: 64px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  font-family: 'Staatliches', sans-serif;
+  line-height: 34px;
+  font-size: 24px;
+  color: #535971;
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 36px;
+}
+
+.fieldset-wrapper {
+  display: flex;  
+  justify-content: space-between;
+  gap: 22px;
+}
+
+.fieldset-wrapper-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper, .input-wrapper-2 {
+  margin-bottom: 16px;
+}
+
+.input-wrapper, .input-wrapper-2 label {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+  color: #4E4958;
+  line-height: 24px;
+}
+
+.input-wrapper input {
+  width: 300px;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  padding: 0 20px;
+  font-family: 'Staatliches', sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  color: #535971;
+  margin-top: 8px;
+}
+
+.input-wrapper-2 input {
+  width: 100%;
+  height: 56px;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  background-color: #FAFAFC;
+  padding: 0 20px;
+  font-family: 'Staatliches', sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  color: #535971;
+  margin-top: 8px;
+}
+
+.input-wrapper-2 label span {
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+  line-height: 20px;
+  margin-left: 9px;
+  color: #C1BCCC;
+}
+
+#field-2 {
+  margin-top: 14px;
+}
+
+#field-2 .fieldset-wrapper-2 p {
+  font-family: 'Staatliches', sans-serif;
+  color: #535971;
+  line-height: 34px;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.mentoria-1 {
+  display: flex;  
+  justify-content: space-between
+}
+
+#date {
+  width: 300px;
+  margin-right: 22px;
+}
+
+#hora{
+  width: 140px;
+  margin-left: 10px;
+}
+
+footer {
+  background-color: #535971;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  padding: 52px 71px;
+  border-radius: 0 0 20px 20px;
+
+}
+
+footer .button {
+  height: 56px;
+  border-radius: 20px;
+  border: none;
+  background-color: #FF5374;
+  color: #FFFFFF;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+footer .button:hover {
+  background-color: #fd3c62;
+}
+
+/*
+input:invalid {
+  border: 1px solid red;
+}
+*/
+
+
+
+
+
+
+
