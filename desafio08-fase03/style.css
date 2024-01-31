@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+#app {
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "main main aside"
+    "main main aside"
+    "footer footer footer";
+
+    height: 100vw;
+    column-gap: 3.4rem;
+    row-gap: 4rem;
+}
+
+#app header {
+    grid-area: header;
+    border: 1px solid red;
+}
+
+#app main {
+    grid-area: main;
+    border: 1px solid blue;
+    padding-left: 11rem;
+}
+
+#app aside {
+    grid-area: aside;
+    border: 1px solid green;
+    padding-right: 11rem;
+}
+
+#app footer {
+    grid-area: footer;
+    border: 1px solid black;
+}
